@@ -1,0 +1,33 @@
+button {
+    background-color: white;
+    border: white;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+div{
+    background-color:green;
+    padding: 20px;
+    width: 100px;
+    display: inline-block;
+}
+
+.orange-container{
+    background-color: orange;
+}
+
+.lightgreen-container{
+    background-color: lightgreen;
+}
+
+.orange{
+    color: orange;
+}
+
+.lightgreen{
+    color: lightgreen;
+}
+
+.darkgreen{
+    color: darkgreen;
+}
