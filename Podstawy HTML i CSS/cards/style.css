@@ -64,6 +64,7 @@ button {
 	border-radius: 25px;
 	font-family: 'Lexend Deca', sans-serif;
 	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 .sedans-btn {
@@ -76,6 +77,13 @@ button {
 
 .luxury-btn {
 	color: hsl(179, 100%, 13%);
+}
+
+.sedans-btn:hover,
+.suvs-btn:hover,
+.luxury-btn:hover {
+	background-color: transparent;
+	color: hsl(0, 0%, 95%);
 }
 
 /* ATTRIBUTION */
