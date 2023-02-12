@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ddd;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+button {
+	margin-top: 2em;
+	padding: 0.5em 1em;
+	width: 120px;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 8px;
+	transition: background-color 0.3s ease-out;
+}
+
+.submit-btn {
+	background-color: teal;
+	border: 1px solid teal;
+}
+
+.confirm-btn {
+	background-color: teal;
+	border: 1px solid teal;
+}
+
+.submit-btn:hover,
+.confirm-btn:hover {
+	/* background-color: #016972; */
+	background-color: #00403f;
+}
+
+.cancel-btn {
+	background-color: maroon;
+	border: 1px solid maroon;
+}
+
+.cancel-btn:hover {
+	background-color: rgb(82, 1, 1);
+}
+
+.cards {
+	display: flex;
+	justify-content: space-evenly;
+	width: 800px;
+}
+
+.card {
+	background-color: #fff;
+	padding: 2em;
+	/* text-align: center; */
+}
