@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: hsl(0, 0%, 95%);
+	font-size: 15px;
+
+	font-family: 'Lexend Deca', sans-serif;
+	color: hsl(100, 100%, 100%);
+}
+
+/* To ja poklikam tu dalej. :) */
+
+.cards {
+	display: flex;
+	max-width: 1440px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card {
+	padding: 2em;
+}
+
+.sedans {
+	background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+	background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+	background-color: hsl(179, 100%, 13%);
+}
+
+h2 {
+	margin: 1em 0;
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+p {
+	line-height: 1.5rem;
+}
+
+button {
+	background-color: hsl(0, 0%, 95%);
+	border: 1px solid hsl(0, 0%, 95%);
+	border-radius: 15px;
+}
+
+.attribution {
+	margin-top: 200px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
