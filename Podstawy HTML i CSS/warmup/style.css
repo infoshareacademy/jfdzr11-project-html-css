@@ -1,0 +1,34 @@
+.btn--submit {
+  color: white;
+  background-color: #248f25;
+  border-radius: 5px;
+}
+
+.btn--cancel {
+  color: white;
+  background-color: #ed3232;
+  border-radius: 5px;
+}
+
+.btn--confirm {
+  color: gray;
+  border-radius: 5px;
+}
+
+.container--1 {
+  background-color: burlywood;
+  width: 250px;
+  height: 250px;
+}
+
+.container--2 {
+  background-color: greenyellow;
+  width: 250px;
+  height: 250px;
+}
+
+.container--3 {
+  background-color: skyblue;
+  width: 250px;
+  height: 250px;
+}
