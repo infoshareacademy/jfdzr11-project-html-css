@@ -4,6 +4,12 @@
 body {
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
+    background-color:hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
 }
 .cards {
     display: flex;
@@ -15,7 +21,6 @@ body {
     height: 300px;
     color: white;
     padding: 30px;
-    font-size: 15px;
 }
 .Sedans {
     background-color:hsl(31, 77%, 52%);
@@ -36,5 +41,16 @@ button {
     padding: 10px;
     border: none;
     width: 100px;
-    
+}
+
+.Sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.SUVs button{
+    color:hsl(184, 100%, 22%)
+}
+
+.Luxury button{
+    color:hsl(179, 100%, 13%)
 }
