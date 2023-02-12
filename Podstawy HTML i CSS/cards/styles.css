@@ -1,0 +1,40 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sedans, .SUVs, .Luxury{
+    width: 200px;
+    height: 300px;
+    color: white;
+    padding: 30px;
+    font-size: 15px;
+}
+.Sedans {
+    background-color:hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+.SUVs {
+    background-color:hsl(184, 100%, 22%);
+}
+
+.Luxury {
+    background-color:hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px; 
+}
+
+
+button {
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    
+}
