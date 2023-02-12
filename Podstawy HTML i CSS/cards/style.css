@@ -18,8 +18,6 @@ body {
 	color: hsl(100, 100%, 100%);
 }
 
-/* To ja poklikam tu dalej. :) */
-
 .cards {
 	display: flex;
 	max-width: 900px;
@@ -96,4 +94,13 @@ button {
 
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+	body {
+		height: auto;
+	}
+	.cards {
+		flex-direction: column;
+	}
 }
