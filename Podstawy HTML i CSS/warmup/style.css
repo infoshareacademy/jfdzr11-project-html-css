@@ -1,0 +1,14 @@
+button{
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+div{
+    padding: 20px;
+}
