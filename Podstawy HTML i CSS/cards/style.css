@@ -54,27 +54,31 @@
   /* font-family: 'Big Shoulders Display', cursive; */
   body {
     font-size: 15px;
-    font-family: ;
-    color: ;
+    font-family: 'Lexend Deca', sans-serif; ;
   }
 
   p {
     color: hsla(0, 0%, 100%, 0.75);
+    
   }
   
   .heading {
     color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive ;
+    font-size: 2rem;
   }
 
   .sections-container {
     display: flex;
-    gap: 2rem;
   }
   section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    align-items: center;
+    align-items: flex-start;
+    padding: 2rem;
+    
   }
 
   .sedan {
@@ -91,8 +95,18 @@
   
   button {
     background-color: hsl(0, 0%, 95%);
-    border-radius: 20px;
-    width: 100px;
+    border-radius: 2rem;
     margin-bottom: 30px;
+    padding: 1rem 2rem;
+    border: none;
+    display: flex;
+    
+  }
+  @media screen and (max-width:625px) {
+    .sections-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
   }
 
