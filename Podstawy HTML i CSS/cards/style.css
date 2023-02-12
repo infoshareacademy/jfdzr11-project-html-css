@@ -1,0 +1,64 @@
+.wrapper {
+    display: flex;
+    height: 500px;
+    
+    
+}
+
+.title{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin-left: 20px;
+    font-size: 38px;
+   
+}
+
+.text{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 30px 20px;
+    line-height: 24px;
+    
+
+}
+.btn-learn{
+    width: 130px;
+    height: 45px;
+    background-color: hsl(0, 0%, 95%);
+    margin-left: 30px;
+    margin-top: 82px;
+    border: 0;
+    border-radius: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+}
+
+.btn-sedans{
+    color: hsl(31, 77%, 52%);
+}
+.btn-suvs{
+    color: hsl(184, 100%, 22%);
+}
+.btn-luxury{
+    color:  hsl(179, 100%, 13%);
+}
+.sedans {
+background-color: hsl(31, 77%, 52%) ;
+padding: 30px;
+
+
+}
+
+.suvs {
+background-color: hsl(184, 100%, 22%);
+padding: 30px;
+
+}
+
+.luxury {
+background-color: hsl(179, 100%, 13%);
+padding: 30px;
+    
+}
