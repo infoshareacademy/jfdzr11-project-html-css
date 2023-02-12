@@ -14,7 +14,6 @@ body {
 	height: 100vh;
 	background-color: hsl(0, 0%, 95%);
 	font-size: 15px;
-
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsl(100, 100%, 100%);
 }
@@ -23,7 +22,7 @@ body {
 
 .cards {
 	display: flex;
-	max-width: 1440px;
+	max-width: 1200px;
 	border-radius: 10px;
 	overflow: hidden;
 }
@@ -56,9 +55,13 @@ p {
 }
 
 button {
+	margin-top: 4em;
+	padding: 0.6em 1.2em;
 	background-color: hsl(0, 0%, 95%);
 	border: 1px solid hsl(0, 0%, 95%);
 	border-radius: 15px;
+	font-family: 'Lexend Deca', sans-serif;
+	cursor: pointer;
 }
 
 .attribution {
