@@ -1,0 +1,23 @@
+.button  {
+    color:midnightblue;
+    background-color: aquamarine;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px white;
+}
+#button1 {
+    box-shadow: 5px 5px 5px;
+}
+#button2 {
+    box-shadow: -3px 3px 10px 3px rgba(151,46,46,0.75);
+}
+#button3 {
+    border-radius: 20%;
+    background-color: aliceblue;
+    font-style: italic;
+    text-shadow: 0 0 3px rgba(151,46,46,0.75);
+}
+
+.container {
+   display: flex;
+ ;
+}
