@@ -5,38 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
 
 </head>
 <body>
 
-  <div class="wrapper">
-    <div class="container">
-      <h1 class="lead">Get insights that help your business grow.</h1>
+  <div class="card">
+    <aside class="info">
+      <h1 class="lead">Get <span class="accent">insights</span> that help your business grow.</h1>
   
-      <p class="text">
-        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-        experience, and overall efficiency.
-      </p>
-      <div class="stats">
-        <div class="statistic">
-          <span class="big-text">10k+</span> 
-          companies
-        </div>
-        <div class="statistic">
-          <span class="big-text">314</span> 
-          templates
-        </div>
-        <div class="statistic">
-          <span class="big-text">12m+</span> 
-          queries
+      <div class="text-and-stats">
+        <p class="text">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.
+        </p>
+        <div class="stats">
+          <div class="statistic">
+            <div class="big-text">10k+</div> 
+            companies
+          </div>
+          <div class="statistic">
+            <div class="big-text">314</div> 
+            templates
+          </div>
+          <div class="statistic">
+            <div class="big-text">12m+</div> 
+            queries
+          </div>
         </div>
       </div>
+      
+    </aside>
+    <div class="image-container">
+      <img src="images/image-header-desktop.jpg" alt="people working at an office, talking and laughing to each other">
     </div>
-    <img src="images/image-header-desktop.jpg" alt="people working at an office, talking and laughing to each other">
+    
   </div>
   
 
