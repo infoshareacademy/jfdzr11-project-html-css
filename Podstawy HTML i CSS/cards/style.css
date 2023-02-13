@@ -101,3 +101,14 @@ button {
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 375px) {
+	body {
+		height: 100%;
+		width: 95%;
+	}
+	.cards {
+		flex-direction: column;
+		width: 90%;
+	}
+}
