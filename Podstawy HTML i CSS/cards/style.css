@@ -12,18 +12,17 @@ body {
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
+	width: 1440px;
 	background-color: hsl(0, 0%, 95%);
 	font-size: 15px;
-
 	font-family: 'Lexend Deca', sans-serif;
-	color: hsl(100, 100%, 100%);
 }
-
-/* To ja poklikam tu dalej. :) */
 
 .cards {
 	display: flex;
-	max-width: 1440px;
+	align-items: center;
+	justify-content: center;
+	width: 60%;
 	border-radius: 10px;
 	overflow: hidden;
 }
@@ -49,16 +48,48 @@ h2 {
 	font-family: 'Big Shoulders Display', cursive;
 	font-size: 2rem;
 	text-transform: uppercase;
+	color: hsl(0, 0%, 95%);
 }
 
 p {
 	line-height: 1.5rem;
+	color: hsla(0, 0%, 100%, 0.75);
 }
 
 button {
 	background-color: hsl(0, 0%, 95%);
-	border: 1px solid hsl(0, 0%, 95%);
-	border-radius: 15px;
+	border: 2px solid hsl(0, 0%, 95%);
+	border-radius: 25px;
+	width: 140px;
+	margin-top: 5em;
+	padding: 0.9em;
+}
+
+.sedans button {
+	color: hsl(31, 77%, 52%);
+}
+
+.sedans button:hover {
+	background-color: hsl(31, 77%, 52%);
+	color: hsl(0, 0%, 95%);
+}
+
+.suvs button {
+	color: hsl(184, 100%, 22%);
+}
+
+.suvs button:hover {
+	background-color: hsl(184, 100%, 22%);
+	color: hsl(0, 0%, 95%);
+}
+
+.luxury button {
+	color: hsl(179, 100%, 13%);
+}
+
+.luxury button:hover {
+	background-color: hsl(179, 100%, 13%);
+	color: hsl(0, 0%, 95%);
 }
 
 .attribution {
