@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.square-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 20px;
+	width: 500px;
+	height: 500px;
+	background-color: grey;
+}
+
+.square {
+	width: 240px;
+	height: 240px;
+	background-color: lightblue;
+}
+
