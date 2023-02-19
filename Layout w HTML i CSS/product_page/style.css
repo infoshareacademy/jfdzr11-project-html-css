@@ -15,3 +15,15 @@ body {
 	color: hsl(219, 9%, 45%);
 	font-family: 'Kumbh Sans', sans-serif;
 }
+
+.wrapper {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	position: fixed;
+	display: flex;
+	/* padding: 2vmin 0; */
+}

@@ -17,14 +17,14 @@
 
 	<body>
 		<header>
-			<div class="header__logo"><img src="./images/logo.svg" alt="Company logo"/></div>
+			<div class="header__logo"><img src="./images/logo.svg" alt="Company logo" /></div>
 			<nav class="header__nav">
 				<ul>
-					<li><a href="">Collections</a></li>
-					<li><a href="">Men</a></li>
-					<li><a href="">Women</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Contact</a></li>
+					<li><a href="" class="header__nav-item">Collections</a></li>
+					<li><a href="" class="header__nav-item">Men</a></li>
+					<li><a href="" class="header__nav-item">Women</a></li>
+					<li><a href="" class="header__nav-item">About</a></li>
+					<li><a href="" class="header__nav-item">Contact</a></li>
 				</ul>
 			</nav>
 			<button class="header__cart"><img src="./images/icon-cart.svg" alt="Cart icon" /></button>
@@ -32,16 +32,28 @@
 		</header>
 
 		<main>
-			<section class="image-container"></section>
-			<section class="offer-container">
-				<h2 class="manufacter-name">Sneaker Company</h2>
-				<h3 class="product-name">Fall Limited Edition Sneakers</h3>
-				<p>
-					These low-profile sneakers are your perfect casual wear companion. Featuring a durable
-					rubber outer sole, they’ll withstand everything the weather can offer.
-				</p>
-			</section>
-			$125.00 50% $250.00 0 Add to cart
+			<div class="wrapper">
+				<section class="image-container"></section>
+				<section class="offer-container">
+					<h2 class="manufacter-name">Sneaker Company</h2>
+					<h3 class="product-name">Fall Limited Edition Sneakers</h3>
+					<p class="product__text">
+						These low-profile sneakers are your perfect casual wear companion. Featuring a durable
+						rubber outer sole, they’ll withstand everything the weather can offer.
+					</p>
+					<div class="product__price">
+						<p class="product__price-current">$125.00</p>
+						<div class="product__price-discount">50%</div>
+						<p class="product__price-old">$250.00</p>
+					</div>
+					<div class="product-counter">
+						<button class="product-counter__button-subtract"><img src="./images/icon-minus.svg" alt=""/></button>
+						<p class="product-counter__counter-field">0</p>
+						<button class="product-counter__button-add"><img src="./images/icon-plus.svg" alt=""/></button>
+					</div>
+					<button class="product__add"><img src="./images/icon-cart.svg" alt="">Add to cart</button>
+				</section>
+			</div>
 		</main>
 	</body>
 </html>
