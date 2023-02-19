@@ -1,0 +1,22 @@
+li{
+    display: inline;
+}
+
+ul{
+    border-bottom: 2px solid gray;
+    padding: 30px 20px;
+}
+
+.nav-right{
+    float: right;
+}
+
+[src*=avatar]{
+    height: 48px;
+    width: 48px;
+}
+
+.description {
+    font-family:
+
+}
