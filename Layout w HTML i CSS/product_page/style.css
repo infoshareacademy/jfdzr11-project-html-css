@@ -1,0 +1,58 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.main-picture img {
+    max-width: 400px;
+    
+    
+}
+.picture {
+    max-width: 250px;
+}
+ .secondary-pictures {
+    display: flex;
+    gap: 0.4rem;
+}
+
+/* .picture:first-child {
+    background-image: url(./images/image-product-1.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+
+}   */
+
+/* .main {
+    display: flex;
+} */
+
+.menu {
+list-style: none;
+
+}
+li{
+    display: inline-block;
+}
+.navigation {
+    display: inline-block;
+}
+.ikons {
+    position: relative;
+    right: 100px;
+}
+.avatar {
+    height: 35px;
+    width: 35px;
+}
+.basket {
+    height: 20px;
+    width: 20px;
+    
+}
+
+
+.description {
+    font-family: 'Kumbh Sans', sans-serif;
+}
