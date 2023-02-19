@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+}
+
+.inner_wrapper {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.square {
+  width: 240px;
+  height: 240px;
+  background-color: lightblue;
+}
