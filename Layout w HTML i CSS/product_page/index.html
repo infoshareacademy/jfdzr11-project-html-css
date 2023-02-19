@@ -12,6 +12,8 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href="style.css" />
+
     <title>Frontend Mentor | E-commerce product page</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -26,48 +28,52 @@
     </style>
   </head>
   <body>
-    <header>
-      <div class="logo">Sneakers</div>
-      <nav>
-        <ul>
-          <li>Collection</li>
-          <li>Man</li>
-          <li>Woman</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-        <div class="basket">basket</div>
-        <div class="avatar">avatar</div>
-      </nav>
-    </header>
-    <main>
-      <section class="gallery">
-        <!-- wstawiamy zdjęcia obazków -->
-      </section>
-      <section class="description">
-        <!-- wstawiamy opis poniżej -->
-        <p>
-          Collections Men Women About Contact Sneaker Company Fall Limited
-          Edition Sneakers These low-profile sneakers are your perfect casual
-          wear companion. Featuring a durable rubber outer sole, they’ll
-          withstand everything the weather can offer.
-        </p>
-        <!-- cena/przecena -->
-        <p class="new-prie">$125.00</p>
-        <p class="discount">50%</p>
-        <p class="old-price">$250.00</p>
-        <!-- przycisk dodaj do koszyka i wybirz ilość -->
-        <form>
-          <input type="number" step />
-        </form>
-        <button class="add-to-card">Add to card</button>
-      </section>
-    </main>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Kuba and Kamil</a>.
+    <div class="wrapper">
+      <header>
+        <div class="logo">Sneakers</div>
+        <nav>
+          <ul>
+            <li>Collection</li>
+            <li>Man</li>
+            <li>Woman</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+        <div class="basket-avatar">
+          <div class="basket">basket</div>
+          <div class="avatar">avatar</div>
+        </div>
+      </header>
+      <main>
+        <section class="gallery">
+          <!-- wstawiamy zdjęcia obazków -->
+        </section>
+        <section class="description">
+          <!-- wstawiamy opis poniżej -->
+          <p>
+            Collections Men Women About Contact Sneaker Company Fall Limited
+            Edition Sneakers These low-profile sneakers are your perfect casual
+            wear companion. Featuring a durable rubber outer sole, they’ll
+            withstand everything the weather can offer.
+          </p>
+          <!-- cena/przecena -->
+          <p class="new-prie">$125.00</p>
+          <p class="discount">50%</p>
+          <p class="old-price">$250.00</p>
+          <!-- przycisk dodaj do koszyka i wybirz ilość -->
+          <form>
+            <input type="number" step />
+          </form>
+          <button class="add-to-card">Add to card</button>
+        </section>
+      </main>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Kuba and Kamil</a>.
+      </div>
     </div>
   </body>
 </html>
