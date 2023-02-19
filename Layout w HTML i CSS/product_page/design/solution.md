@@ -1,5 +1,5 @@
 Części:
-1. nawigacja
+1. nawigacja (pod nawigacją dolny border)
  po lewej
  - logo
  - 5 buttonów nawigacji
@@ -7,12 +7,12 @@ Części:
  po prawej
  -koszyk i zdjęcie avatar
 
-2. Zdjęcia
+2. Oferta
+2.1 Zdjęcia
     -Div - zdjęcie główne - div z tłem ze zdjęcia
     -Div- 4 zdjęcia miniatur div z tłem ze zdjęcia
 
-
-3 Opis po prawej stronie zdjęć
+2.2 Opis po prawej stronie zdjęć
 - header
 - główny header
 - Opis - paragraf
