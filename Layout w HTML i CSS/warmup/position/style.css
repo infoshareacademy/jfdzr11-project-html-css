@@ -1,0 +1,27 @@
+.square{
+    background-color: lightblue;
+    width: 240px;
+    height:240px;
+    /* border: 2px solid black; */
+    position: absolute;
+}
+
+.square-1{
+    left:calc(50vw - 250px);
+    top: calc(50vh - 250px)
+}
+
+.square-2{
+    left:calc(50vw - 250px);
+    bottom: calc(50vh - 250px)
+}
+
+.square-3{
+    right:calc(50vw - 250px);
+    top: calc(50vh - 250px)
+}
+
+.square-4{
+    right:calc(50vw - 250px);
+    bottom: calc(50vh - 250px)
+}
