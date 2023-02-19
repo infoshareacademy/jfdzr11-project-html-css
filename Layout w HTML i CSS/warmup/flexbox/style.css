@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+}
+
+.outer-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+width: 500px;
+height: 500px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: space-between;
+}
+
+
+.square{
+    background-color: lightblue;
+    width: 240px;
+    height:240px;
+}
