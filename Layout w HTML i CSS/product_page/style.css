@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: hsl(0, 0%, 100%);
+	color: hsl(219, 9%, 45%);
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.wrapper {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	position: fixed;
+	display: flex;
+	/* padding: 2vmin 0; */
+}
