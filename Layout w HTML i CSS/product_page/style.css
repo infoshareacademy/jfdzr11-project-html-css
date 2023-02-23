@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper {
+	max-width: 1100px;
+	width: 90%;
+	margin: 0 auto;
+	font-family: "Kumbh Sans", sans-serif;
+	color: hsl(219, 9%, 45%);
+	font-size: 16px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid hsl(220, 14%, 75%);
+	padding: 30px 0;
+	margin-bottom: 54px;
+}
+.navigation {
+	margin: 0 auto 0 53px;
+}
+.nav-links {
+	display: flex;
+	gap: 30px;
+}
+.nav-links li {
+	list-style: none;
+}
+.nav-links li a {
+	text-decoration: none;
+	color: hsl(219, 9%, 45%);
+}
+.ikons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 110px;
+}
+
+.avatar {
+	height: 40px;
+	width: 40px;
+}
+
+.main {
+	display: flex;
+}
+
+.pictures {
+	width: 50%;
+	padding: 40px;
+}
+.description {
+	width: 50%;
+	padding: 60px 30px 60px 60px;
+}
+.main-picture img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.cards-pictures {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	/* width: 100%; */
+	margin-top: 20px;
+}
+.picture img {
+	width: 100%;
+	border-radius: 10px;
+}
+.picture img:active {
+	opacity: 0;
+	border: 2px solid hsl(26, 100%, 55%);
+}
+.picture img:hover {
+	border: 2px solid hsl(26, 100%, 55%);
+	opacity: 0.4;
+}
+
+.description h3 {
+	color: hsl(26, 100%, 55%);
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding: 45px 0 16px 0;
+}
+.description h1 {
+	color: hsl(220, 13%, 13%);
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 1.1;
+}
+.description p {
+	padding: 32px 0 25px 0;
+	line-height: 1.6;
+}
+
+.price {
+	display: flex;
+	align-items: center;
+}
+.price strong {
+	color: hsl(220, 13%, 13%);
+	font-size: 30px;
+}
+.discount {
+	color: hsl(26, 100%, 55%);
+	background-color: hsl(25, 100%, 94%);
+	font-weight: 700;
+	margin-left: 20px;
+	padding: 4px 10px;
+	border-radius: 8px;
+}
+.description del {
+	display: inline-block;
+	padding: 8px 0;
+}
+.btn {
+	display: flex;
+	gap: 20px;
+	padding: 30px 0;
+}
+
+.amount {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-grow: 1;
+	padding: 20px;
+	background-color: hsl(223, 64%, 98%);
+	border: 0;
+	border-radius: 10px;
+}
+.amount input {
+	border: 0;
+	background-color: hsl(223, 64%, 98%);
+}
+input::placeholder {
+	text-align: center;
+	color: hsl(0, 0%, 0%);
+	font-weight: 700;
+	background-color: hsl(223, 64%, 98%);
+}
+
+.submit {
+	background-color: hsl(26, 100%, 55%);
+	color: hsl(0, 0%, 100%);
+	font-family: "Kumbh Sans", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 14px;
+	flex-grow: 3;
+	border-radius: 10px;
+	border: 0;
+	box-shadow: 0 15px 20px 0px hsl(25, 100%, 94%);
+}
+.basket path {
+	height: 20px;
+	width: 20px;
+	fill: hsl(0, 0%, 100%);
+}
+.submit span {
+	font-weight: 700;
+	font-size: 16px;
+}
