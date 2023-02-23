@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 .wrapper {
-	max-width: 1000px;
+	max-width: 1200px;
 	width: 90%;
 	margin: 0 auto;
 	font-family: "Kumbh Sans", sans-serif;
@@ -18,7 +18,7 @@
 	width: 100%;
 	border-bottom: 1px solid hsl(220, 14%, 75%);
 	padding: 30px 0;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .navigation {
 	margin: 0 auto 0 50px;
@@ -45,14 +45,43 @@
 	height: 40px;
 	width: 40px;
 }
+
+.main {
+	display: flex;
+}
+
+.pictures {
+	max-width: 600px;
+	padding: 25px;
+}
+.description {
+	width: 50%;
+	padding: 25px;
+}
+.main-picture img {
+	max-width: 450px;
+	border-radius: 10px;
+}
+
+.cards-pictures {
+	display: flex;
+	justify-content: space-between;
+	max-width: 450px;
+	margin-top: 20px;
+}
+.picture img {
+	max-width: 100px;
+	border-radius: 10px;
+}
+
 /* .basket {
 	height: 20px;
 	width: 20px;
 } */
 
 /* .main-picture img {
-    max-width: 400px;  
-}
+    max-width: 400px;
+}  
 .picture {
     max-width: 250px;
 }
