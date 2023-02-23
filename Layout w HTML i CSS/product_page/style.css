@@ -56,7 +56,7 @@
 }
 .description {
 	width: 50%;
-	padding: 25px;
+	padding: 50px;
 }
 .main-picture img {
 	max-width: 450px;
@@ -73,27 +73,78 @@
 	max-width: 100px;
 	border-radius: 10px;
 }
+.description h3 {
+	color: hsl(26, 100%, 55%);
+	text-transform: uppercase;
+	padding: 30px 0;
+}
+.description h1 {
+	color: hsl(220, 13%, 13%);
+	font-size: 40px;
+	font-weight: 7--;
+}
+.description p {
+	padding: 30px 0;
+	line-height: 1.5;
+}
 
-/* .basket {
+.price strong {
+	color: hsl(220, 13%, 13%);
+	font-size: 22px;
+}
+.discount {
+	color: hsl(26, 100%, 55%);
+	background-color: hsl(25, 100%, 94%);
+	font-weight: 700;
+	margin-left: 20px;
+}
+.description del {
+	display: inline-block;
+	padding: 16px 0;
+}
+.btn {
+	display: flex;
+	gap: 20px;
+}
+
+.amount {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-grow: 1;
+	padding: 15px;
+	background-color: hsl(223, 64%, 98%);
+	border: 0;
+	border-radius: 10px;
+}
+.amount input {
+	border: 0;
+	background-color: hsl(223, 64%, 98%);
+}
+input::placeholder {
+	text-align: center;
+	color: hsl(0, 0%, 0%);
+	font-weight: 700;
+	background-color: hsl(223, 64%, 98%);
+}
+
+.submit {
+	background-color: hsl(26, 100%, 55%);
+	color: hsl(0, 0%, 100%);
+	font-family: "Kumbh Sans", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	flex-grow: 2;
+	border-radius: 10px;
+	border: 0;
+}
+.basket path {
 	height: 20px;
 	width: 20px;
-} */
-
-/* .main-picture img {
-    max-width: 400px;
-}  
-.picture {
-    max-width: 250px;
+	fill: hsl(0, 0%, 100%);
 }
- .cards-pictures {
-    display: flex;
-    gap: 0.4rem;
-} */
-
-/* .picture:first-child {
-    background-image: url(./images/image-product-1.jpg);
-    width: 200px;
-    height: 200px;
-    background-repeat: no-repeat;
-
-}   */
+.submit span {
+	font-weight: 700;
+}
